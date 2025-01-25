@@ -17,6 +17,6 @@ public class BackendController{
 
     @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     public Backend get() {
-        return new Backend("nationalparks","Losssssss mejores Parques Nacionales", new Coordinates("27.994402", "-81.760254"), 4);
+        return new Backend("nationalparks","Lossssssss mejores Parques Nacionales", new Coordinates("27.994402", "-81.760254"), 4);
     }
 }
